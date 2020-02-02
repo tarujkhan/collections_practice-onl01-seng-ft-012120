@@ -5,6 +5,7 @@ end
   
   #Question 2
 def sort_array_desc(any_array)
+<<<<<<< HEAD
   any_array.sort { |a, b| b <=> a}
   end
   #puts sort_array_desc([7,3,4,8])
@@ -73,3 +74,12 @@ end
   
   
    
+=======
+  any_array.sort do |a, b|
+  a <=> b 
+  end
+  puts sort_array_desc([7,3,4,8])
+
+  
+  
+>>>>>>> ab4d6c2b30fa8206f21d0f11702bbd1740a5847d
